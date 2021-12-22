@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		185418552768B30B0083FF12 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185418542768B30A0083FF12 /* Utils.swift */; };
+		185418592768D9130083FF12 /* FaceOnTypeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185418582768D9130083FF12 /* FaceOnTypeVC.swift */; };
+		1854185C2769CABC0083FF12 /* ActiveSwingDetilVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1854185B2769CABC0083FF12 /* ActiveSwingDetilVC.swift */; };
+		186338CA27632CDF005160E6 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338C927632CDF005160E6 /* SignupVC.swift */; };
+		186338CC276339FA005160E6 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338CB276339F9005160E6 /* Constant.swift */; };
+		186338CE27633A62005160E6 /* UtilityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338CD27633A62005160E6 /* UtilityClass.swift */; };
+		186338D127636122005160E6 /* ForgotPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338D027636122005160E6 /* ForgotPassVC.swift */; };
+		186338D4276369FF005160E6 /* PasswordResetSuccessVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338D3276369FF005160E6 /* PasswordResetSuccessVC.swift */; };
+		186338D6276375AF005160E6 /* HomeStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 186338D5276375AF005160E6 /* HomeStoryboard.storyboard */; };
+		186338D927637AC3005160E6 /* TabBarHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338D827637AC3005160E6 /* TabBarHomeVC.swift */; };
+		186338DC276729BA005160E6 /* MyProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338DB276729BA005160E6 /* MyProfileVC.swift */; };
+		186338DF276767D4005160E6 /* CreatSwingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338DE276767D4005160E6 /* CreatSwingVC.swift */; };
+		186338E3276770AD005160E6 /* DraftSwingTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338E1276770AD005160E6 /* DraftSwingTVCell.swift */; };
+		186338E4276770AD005160E6 /* DraftSwingTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 186338E2276770AD005160E6 /* DraftSwingTVCell.xib */; };
+		186338E72767728E005160E6 /* DraftSwingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338E62767728E005160E6 /* DraftSwingVC.swift */; };
+		186338EF2767DB46005160E6 /* FaceOnTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338EE2767DB46005160E6 /* FaceOnTVCell.swift */; };
+		186338F12767DB6A005160E6 /* DTLTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338F02767DB6A005160E6 /* DTLTVCell.swift */; };
+		186338F727688107005160E6 /* TweaksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186338F627688107005160E6 /* TweaksVC.swift */; };
+		188036E8276A342300B5AA5E /* FloatRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188036E7276A342300B5AA5E /* FloatRatingView.swift */; };
+		18AA2514276CC7420065B9DF /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA2513276CC7420065B9DF /* EditProfileVC.swift */; };
+		18AA2517276E700C0065B9DF /* VideoEditorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA2516276E700C0065B9DF /* VideoEditorVC.swift */; };
+		18AA251A276F7FA20065B9DF /* SwingTweakVideo.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 18AA2519276F7FA20065B9DF /* SwingTweakVideo.MP4 */; };
+		18AA251C2771B4170065B9DF /* CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18AA251B2771B4170065B9DF /* CustomExtensions.swift */; };
+		18C07F9A276227030001CC9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C07F99276227030001CC9F /* AppDelegate.swift */; };
+		18C07F9C276227030001CC9F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C07F9B276227030001CC9F /* SceneDelegate.swift */; };
+		18C07FA1276227030001CC9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C07F9F276227030001CC9F /* Main.storyboard */; };
+		18C07FA4276227030001CC9F /* SwingTweak.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 18C07FA2276227030001CC9F /* SwingTweak.xcdatamodeld */; };
+		18C07FA6276227050001CC9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FA5276227050001CC9F /* Assets.xcassets */; };
+		18C07FA9276227050001CC9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FA7276227050001CC9F /* LaunchScreen.storyboard */; };
+		18C07FC1276235A10001CC9F /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FB4276235A10001CC9F /* Roboto-Medium.ttf */; };
+		18C07FC2276235A10001CC9F /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FB5276235A10001CC9F /* Roboto-Light.ttf */; };
+		18C07FC3276235A10001CC9F /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FB6276235A10001CC9F /* Roboto-Regular.ttf */; };
+		18C07FC4276235A10001CC9F /* Roboto-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FB7276235A10001CC9F /* Roboto-MediumItalic.ttf */; };
+		18C07FC5276235A10001CC9F /* Roboto-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FB8276235A10001CC9F /* Roboto-ThinItalic.ttf */; };
+		18C07FC6276235A10001CC9F /* Roboto-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FB9276235A10001CC9F /* Roboto-BoldItalic.ttf */; };
+		18C07FC7276235A10001CC9F /* Roboto-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FBA276235A10001CC9F /* Roboto-LightItalic.ttf */; };
+		18C07FC8276235A10001CC9F /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FBB276235A10001CC9F /* Roboto-Italic.ttf */; };
+		18C07FC9276235A10001CC9F /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FBC276235A10001CC9F /* LICENSE.txt */; };
+		18C07FCA276235A10001CC9F /* Roboto-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FBD276235A10001CC9F /* Roboto-BlackItalic.ttf */; };
+		18C07FCB276235A10001CC9F /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FBE276235A10001CC9F /* Roboto-Bold.ttf */; };
+		18C07FCC276235A10001CC9F /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FBF276235A10001CC9F /* Roboto-Thin.ttf */; };
+		18C07FCD276235A10001CC9F /* Roboto-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18C07FC0276235A10001CC9F /* Roboto-Black.ttf */; };
+		18C07FD3276240D30001CC9F /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C07FD2276240D30001CC9F /* CustomView.swift */; };
+		18C07FD5276242B60001CC9F /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C07FD4276242B60001CC9F /* LoginVC.swift */; };
+		18EC994C276B165E007F36B9 /* SwingListProTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC994A276B165E007F36B9 /* SwingListProTVCell.swift */; };
+		18EC994D276B165E007F36B9 /* SwingListProTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EC994B276B165E007F36B9 /* SwingListProTVCell.xib */; };
+		18EC9950276B226F007F36B9 /* ProGolfSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC994F276B226F007F36B9 /* ProGolfSB.storyboard */; };
+		18EC9953276B2765007F36B9 /* SwingDetailProVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC9952276B2765007F36B9 /* SwingDetailProVC.swift */; };
+		18EC9955276B2FB8007F36B9 /* PopUpSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EC9954276B2FB8007F36B9 /* PopUpSB.storyboard */; };
+		18EC9958276B2FFE007F36B9 /* ClaimSwingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC9957276B2FFE007F36B9 /* ClaimSwingVC.swift */; };
+		18EC995B276B478A007F36B9 /* CreatTweakVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC995A276B478A007F36B9 /* CreatTweakVC.swift */; };
+		18EC995F276B65BB007F36B9 /* TweaksTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC995D276B65BB007F36B9 /* TweaksTVCell.swift */; };
+		18EC9960276B65BB007F36B9 /* TweaksTVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18EC995E276B65BB007F36B9 /* TweaksTVCell.xib */; };
+		18EC9963276B829F007F36B9 /* ViewTweakVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC9962276B829F007F36B9 /* ViewTweakVC.swift */; };
+		18EC9966276B86A7007F36B9 /* FeedBackPopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EC9965276B86A7007F36B9 /* FeedBackPopVC.swift */; };
+		CCC030704A0BCFB12FE50812 /* Pods_SwingTweak.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468128F44210ACFE480FECBA /* Pods_SwingTweak.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		185418542768B30A0083FF12 /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		185418582768D9130083FF12 /* FaceOnTypeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceOnTypeVC.swift; sourceTree = "<group>"; };
+		1854185B2769CABC0083FF12 /* ActiveSwingDetilVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveSwingDetilVC.swift; sourceTree = "<group>"; };
+		186338C927632CDF005160E6 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
+		186338CB276339F9005160E6 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		186338CD27633A62005160E6 /* UtilityClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityClass.swift; sourceTree = "<group>"; };
+		186338D027636122005160E6 /* ForgotPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassVC.swift; sourceTree = "<group>"; };
+		186338D3276369FF005160E6 /* PasswordResetSuccessVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordResetSuccessVC.swift; sourceTree = "<group>"; };
+		186338D5276375AF005160E6 /* HomeStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeStoryboard.storyboard; sourceTree = "<group>"; };
+		186338D827637AC3005160E6 /* TabBarHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarHomeVC.swift; sourceTree = "<group>"; };
+		186338DB276729BA005160E6 /* MyProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileVC.swift; sourceTree = "<group>"; };
+		186338DE276767D4005160E6 /* CreatSwingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatSwingVC.swift; sourceTree = "<group>"; };
+		186338E1276770AD005160E6 /* DraftSwingTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftSwingTVCell.swift; sourceTree = "<group>"; };
+		186338E2276770AD005160E6 /* DraftSwingTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DraftSwingTVCell.xib; sourceTree = "<group>"; };
+		186338E62767728E005160E6 /* DraftSwingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DraftSwingVC.swift; sourceTree = "<group>"; };
+		186338EE2767DB46005160E6 /* FaceOnTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceOnTVCell.swift; sourceTree = "<group>"; };
+		186338F02767DB6A005160E6 /* DTLTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DTLTVCell.swift; sourceTree = "<group>"; };
+		186338F627688107005160E6 /* TweaksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweaksVC.swift; sourceTree = "<group>"; };
+		188036E7276A342300B5AA5E /* FloatRatingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloatRatingView.swift; sourceTree = "<group>"; };
+		18AA2513276CC7420065B9DF /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		18AA2516276E700C0065B9DF /* VideoEditorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoEditorVC.swift; sourceTree = "<group>"; };
+		18AA2519276F7FA20065B9DF /* SwingTweakVideo.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwingTweakVideo.MP4; sourceTree = "<group>"; };
+		18AA251B2771B4170065B9DF /* CustomExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExtensions.swift; sourceTree = "<group>"; };
+		18C07F96276227030001CC9F /* SwingTweak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwingTweak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18C07F99276227030001CC9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		18C07F9B276227030001CC9F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		18C07FA0276227030001CC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18C07FA3276227030001CC9F /* SwingTweak.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwingTweak.xcdatamodel; sourceTree = "<group>"; };
+		18C07FA5276227050001CC9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18C07FA8276227050001CC9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18C07FAA276227050001CC9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18C07FB4276235A10001CC9F /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		18C07FB5276235A10001CC9F /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		18C07FB6276235A10001CC9F /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		18C07FB7276235A10001CC9F /* Roboto-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-MediumItalic.ttf"; sourceTree = "<group>"; };
+		18C07FB8276235A10001CC9F /* Roboto-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-ThinItalic.ttf"; sourceTree = "<group>"; };
+		18C07FB9276235A10001CC9F /* Roboto-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BoldItalic.ttf"; sourceTree = "<group>"; };
+		18C07FBA276235A10001CC9F /* Roboto-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-LightItalic.ttf"; sourceTree = "<group>"; };
+		18C07FBB276235A10001CC9F /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		18C07FBC276235A10001CC9F /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		18C07FBD276235A10001CC9F /* Roboto-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-BlackItalic.ttf"; sourceTree = "<group>"; };
+		18C07FBE276235A10001CC9F /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		18C07FBF276235A10001CC9F /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		18C07FC0276235A10001CC9F /* Roboto-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Black.ttf"; sourceTree = "<group>"; };
+		18C07FD2276240D30001CC9F /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
+		18C07FD4276242B60001CC9F /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		18EC994A276B165E007F36B9 /* SwingListProTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingListProTVCell.swift; sourceTree = "<group>"; };
+		18EC994B276B165E007F36B9 /* SwingListProTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SwingListProTVCell.xib; sourceTree = "<group>"; };
+		18EC994F276B226F007F36B9 /* ProGolfSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProGolfSB.storyboard; sourceTree = "<group>"; };
+		18EC9952276B2765007F36B9 /* SwingDetailProVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwingDetailProVC.swift; sourceTree = "<group>"; };
+		18EC9954276B2FB8007F36B9 /* PopUpSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopUpSB.storyboard; sourceTree = "<group>"; };
+		18EC9957276B2FFE007F36B9 /* ClaimSwingVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimSwingVC.swift; sourceTree = "<group>"; };
+		18EC995A276B478A007F36B9 /* CreatTweakVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatTweakVC.swift; sourceTree = "<group>"; };
+		18EC995D276B65BB007F36B9 /* TweaksTVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TweaksTVCell.swift; sourceTree = "<group>"; };
+		18EC995E276B65BB007F36B9 /* TweaksTVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TweaksTVCell.xib; sourceTree = "<group>"; };
+		18EC9962276B829F007F36B9 /* ViewTweakVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTweakVC.swift; sourceTree = "<group>"; };
+		18EC9965276B86A7007F36B9 /* FeedBackPopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackPopVC.swift; sourceTree = "<group>"; };
+		468128F44210ACFE480FECBA /* Pods_SwingTweak.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwingTweak.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47A1F96D6EEC6ADB2C0B3FE6 /* Pods-SwingTweak.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwingTweak.debug.xcconfig"; path = "Target Support Files/Pods-SwingTweak/Pods-SwingTweak.debug.xcconfig"; sourceTree = "<group>"; };
+		BF2FE90FE0D5843FAD1BE16F /* Pods-SwingTweak.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwingTweak.release.xcconfig"; path = "Target Support Files/Pods-SwingTweak/Pods-SwingTweak.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18C07F93276227030001CC9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCC030704A0BCFB12FE50812 /* Pods_SwingTweak.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		185418572768CF440083FF12 /* FaceOn */ = {
+			isa = PBXGroup;
+			children = (
+				185418582768D9130083FF12 /* FaceOnTypeVC.swift */,
+			);
+			path = FaceOn;
+			sourceTree = "<group>";
+		};
+		1854185A2769CA740083FF12 /* ActiveSwingDetail */ = {
+			isa = PBXGroup;
+			children = (
+				1854185B2769CABC0083FF12 /* ActiveSwingDetilVC.swift */,
+			);
+			path = ActiveSwingDetail;
+			sourceTree = "<group>";
+		};
+		186338CF276360F3005160E6 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				186338D027636122005160E6 /* ForgotPassVC.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		186338D2276367E5005160E6 /* PasswordResetSuccess */ = {
+			isa = PBXGroup;
+			children = (
+				186338D3276369FF005160E6 /* PasswordResetSuccessVC.swift */,
+			);
+			path = PasswordResetSuccess;
+			sourceTree = "<group>";
+		};
+		186338D727637A86005160E6 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				186338D827637AC3005160E6 /* TabBarHomeVC.swift */,
+			);
+			path = HomeVC;
+			sourceTree = "<group>";
+		};
+		186338DA2767297D005160E6 /* MyProfile */ = {
+			isa = PBXGroup;
+			children = (
+				186338DB276729BA005160E6 /* MyProfileVC.swift */,
+			);
+			path = MyProfile;
+			sourceTree = "<group>";
+		};
+		186338DD276767AF005160E6 /* CreateASwing */ = {
+			isa = PBXGroup;
+			children = (
+				186338DE276767D4005160E6 /* CreatSwingVC.swift */,
+			);
+			path = CreateASwing;
+			sourceTree = "<group>";
+		};
+		186338E02767706A005160E6 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				18EC995C276B654E007F36B9 /* Tweaks */,
+				18EC9949276B1619007F36B9 /* SwingListPro */,
+				186338E927678053005160E6 /* DTlVideo */,
+				186338E827678049005160E6 /* FaceOnVideo */,
+				186338E1276770AD005160E6 /* DraftSwingTVCell.swift */,
+				186338E2276770AD005160E6 /* DraftSwingTVCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		186338E52767725D005160E6 /* DraftSwing */ = {
+			isa = PBXGroup;
+			children = (
+				186338E62767728E005160E6 /* DraftSwingVC.swift */,
+			);
+			path = DraftSwing;
+			sourceTree = "<group>";
+		};
+		186338E827678049005160E6 /* FaceOnVideo */ = {
+			isa = PBXGroup;
+			children = (
+				186338EE2767DB46005160E6 /* FaceOnTVCell.swift */,
+			);
+			path = FaceOnVideo;
+			sourceTree = "<group>";
+		};
+		186338E927678053005160E6 /* DTlVideo */ = {
+			isa = PBXGroup;
+			children = (
+				186338F02767DB6A005160E6 /* DTLTVCell.swift */,
+			);
+			path = DTlVideo;
+			sourceTree = "<group>";
+		};
+		186338F5276880E4005160E6 /* Tweaks */ = {
+			isa = PBXGroup;
+			children = (
+				186338F627688107005160E6 /* TweaksVC.swift */,
+			);
+			path = Tweaks;
+			sourceTree = "<group>";
+		};
+		18AA2512276CC7070065B9DF /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+				18AA2513276CC7420065B9DF /* EditProfileVC.swift */,
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		18AA2515276E6ED50065B9DF /* videoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				18AA2516276E700C0065B9DF /* VideoEditorVC.swift */,
+			);
+			path = videoEditor;
+			sourceTree = "<group>";
+		};
+		18AA2518276F7F840065B9DF /* videoDummy */ = {
+			isa = PBXGroup;
+			children = (
+				18AA2519276F7FA20065B9DF /* SwingTweakVideo.MP4 */,
+			);
+			path = videoDummy;
+			sourceTree = "<group>";
+		};
+		18C07F8D276227030001CC9F = {
+			isa = PBXGroup;
+			children = (
+				18C07F98276227030001CC9F /* SwingTweak */,
+				18C07F97276227030001CC9F /* Products */,
+				34E2E14B9009F1B39B20E803 /* Pods */,
+				F5618E4F7DFFFC5CC3F7F73F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		18C07F97276227030001CC9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18C07F96276227030001CC9F /* SwingTweak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18C07F98276227030001CC9F /* SwingTweak */ = {
+			isa = PBXGroup;
+			children = (
+				18AA2518276F7F840065B9DF /* videoDummy */,
+				186338E02767706A005160E6 /* CustomCell */,
+				18C07FB3276235A10001CC9F /* RobotoFont */,
+				18C07FD1276240B90001CC9F /* UtilityClass */,
+				18C07FCE276237590001CC9F /* Constant */,
+				18C07FB027622A6E0001CC9F /* ViewControllers */,
+				18EC994E276B21BB007F36B9 /* StoryBoard */,
+				18C07F99276227030001CC9F /* AppDelegate.swift */,
+				18C07F9B276227030001CC9F /* SceneDelegate.swift */,
+				18C07FA5276227050001CC9F /* Assets.xcassets */,
+				18C07FAA276227050001CC9F /* Info.plist */,
+				18C07FA2276227030001CC9F /* SwingTweak.xcdatamodeld */,
+			);
+			path = SwingTweak;
+			sourceTree = "<group>";
+		};
+		18C07FB027622A6E0001CC9F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				18AA2515276E6ED50065B9DF /* videoEditor */,
+				18AA2512276CC7070065B9DF /* Edit Profile */,
+				18EC9964276B8675007F36B9 /* FeedbackPop */,
+				18EC9961276B8276007F36B9 /* ViewTweak */,
+				18EC9959276B476C007F36B9 /* CreatTweak */,
+				18EC9956276B2FDC007F36B9 /* ClaimSwing */,
+				18EC9951276B2702007F36B9 /* SwingDetailPro */,
+				1854185A2769CA740083FF12 /* ActiveSwingDetail */,
+				185418572768CF440083FF12 /* FaceOn */,
+				186338F5276880E4005160E6 /* Tweaks */,
+				186338E52767725D005160E6 /* DraftSwing */,
+				186338DD276767AF005160E6 /* CreateASwing */,
+				186338DA2767297D005160E6 /* MyProfile */,
+				186338D727637A86005160E6 /* HomeVC */,
+				186338D2276367E5005160E6 /* PasswordResetSuccess */,
+				186338CF276360F3005160E6 /* ForgotPassword */,
+				18C07FB227622A8A0001CC9F /* SignUpVC */,
+				18C07FB127622A800001CC9F /* LoginVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		18C07FB127622A800001CC9F /* LoginVC */ = {
+			isa = PBXGroup;
+			children = (
+				18C07FD4276242B60001CC9F /* LoginVC.swift */,
+			);
+			path = LoginVC;
+			sourceTree = "<group>";
+		};
+		18C07FB227622A8A0001CC9F /* SignUpVC */ = {
+			isa = PBXGroup;
+			children = (
+				186338C927632CDF005160E6 /* SignupVC.swift */,
+			);
+			path = SignUpVC;
+			sourceTree = "<group>";
+		};
+		18C07FB3276235A10001CC9F /* RobotoFont */ = {
+			isa = PBXGroup;
+			children = (
+				18C07FB4276235A10001CC9F /* Roboto-Medium.ttf */,
+				18C07FB5276235A10001CC9F /* Roboto-Light.ttf */,
+				18C07FB6276235A10001CC9F /* Roboto-Regular.ttf */,
+				18C07FB7276235A10001CC9F /* Roboto-MediumItalic.ttf */,
+				18C07FB8276235A10001CC9F /* Roboto-ThinItalic.ttf */,
+				18C07FB9276235A10001CC9F /* Roboto-BoldItalic.ttf */,
+				18C07FBA276235A10001CC9F /* Roboto-LightItalic.ttf */,
+				18C07FBB276235A10001CC9F /* Roboto-Italic.ttf */,
+				18C07FBC276235A10001CC9F /* LICENSE.txt */,
+				18C07FBD276235A10001CC9F /* Roboto-BlackItalic.ttf */,
+				18C07FBE276235A10001CC9F /* Roboto-Bold.ttf */,
+				18C07FBF276235A10001CC9F /* Roboto-Thin.ttf */,
+				18C07FC0276235A10001CC9F /* Roboto-Black.ttf */,
+			);
+			name = RobotoFont;
+			path = SwingTweak/RobotoFont;
+			sourceTree = SOURCE_ROOT;
+		};
+		18C07FCE276237590001CC9F /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		18C07FD1276240B90001CC9F /* UtilityClass */ = {
+			isa = PBXGroup;
+			children = (
+				18AA251B2771B4170065B9DF /* CustomExtensions.swift */,
+				188036E7276A342300B5AA5E /* FloatRatingView.swift */,
+				185418542768B30A0083FF12 /* Utils.swift */,
+				186338CD27633A62005160E6 /* UtilityClass.swift */,
+				186338CB276339F9005160E6 /* Constant.swift */,
+				18C07FD2276240D30001CC9F /* CustomView.swift */,
+			);
+			path = UtilityClass;
+			sourceTree = "<group>";
+		};
+		18EC9949276B1619007F36B9 /* SwingListPro */ = {
+			isa = PBXGroup;
+			children = (
+				18EC994A276B165E007F36B9 /* SwingListProTVCell.swift */,
+				18EC994B276B165E007F36B9 /* SwingListProTVCell.xib */,
+			);
+			path = SwingListPro;
+			sourceTree = "<group>";
+		};
+		18EC994E276B21BB007F36B9 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				18C07FA7276227050001CC9F /* LaunchScreen.storyboard */,
+				18C07F9F276227030001CC9F /* Main.storyboard */,
+				186338D5276375AF005160E6 /* HomeStoryboard.storyboard */,
+				18EC994F276B226F007F36B9 /* ProGolfSB.storyboard */,
+				18EC9954276B2FB8007F36B9 /* PopUpSB.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		18EC9951276B2702007F36B9 /* SwingDetailPro */ = {
+			isa = PBXGroup;
+			children = (
+				18EC9952276B2765007F36B9 /* SwingDetailProVC.swift */,
+			);
+			path = SwingDetailPro;
+			sourceTree = "<group>";
+		};
+		18EC9956276B2FDC007F36B9 /* ClaimSwing */ = {
+			isa = PBXGroup;
+			children = (
+				18EC9957276B2FFE007F36B9 /* ClaimSwingVC.swift */,
+			);
+			path = ClaimSwing;
+			sourceTree = "<group>";
+		};
+		18EC9959276B476C007F36B9 /* CreatTweak */ = {
+			isa = PBXGroup;
+			children = (
+				18EC995A276B478A007F36B9 /* CreatTweakVC.swift */,
+			);
+			path = CreatTweak;
+			sourceTree = "<group>";
+		};
+		18EC995C276B654E007F36B9 /* Tweaks */ = {
+			isa = PBXGroup;
+			children = (
+				18EC995D276B65BB007F36B9 /* TweaksTVCell.swift */,
+				18EC995E276B65BB007F36B9 /* TweaksTVCell.xib */,
+			);
+			path = Tweaks;
+			sourceTree = "<group>";
+		};
+		18EC9961276B8276007F36B9 /* ViewTweak */ = {
+			isa = PBXGroup;
+			children = (
+				18EC9962276B829F007F36B9 /* ViewTweakVC.swift */,
+			);
+			path = ViewTweak;
+			sourceTree = "<group>";
+		};
+		18EC9964276B8675007F36B9 /* FeedbackPop */ = {
+			isa = PBXGroup;
+			children = (
+				18EC9965276B86A7007F36B9 /* FeedBackPopVC.swift */,
+			);
+			path = FeedbackPop;
+			sourceTree = "<group>";
+		};
+		34E2E14B9009F1B39B20E803 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47A1F96D6EEC6ADB2C0B3FE6 /* Pods-SwingTweak.debug.xcconfig */,
+				BF2FE90FE0D5843FAD1BE16F /* Pods-SwingTweak.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F5618E4F7DFFFC5CC3F7F73F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				468128F44210ACFE480FECBA /* Pods_SwingTweak.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18C07F95276227030001CC9F /* SwingTweak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18C07FAD276227050001CC9F /* Build configuration list for PBXNativeTarget "SwingTweak" */;
+			buildPhases = (
+				AAE8AC6434FF3220543BD889 /* [CP] Check Pods Manifest.lock */,
+				18C07F92276227030001CC9F /* Sources */,
+				18C07F93276227030001CC9F /* Frameworks */,
+				18C07F94276227030001CC9F /* Resources */,
+				8B4F57DD9EAD37701CE06008 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwingTweak;
+			productName = SwingTweak;
+			productReference = 18C07F96276227030001CC9F /* SwingTweak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18C07F8E276227030001CC9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					18C07F95276227030001CC9F = {
+						CreatedOnToolsVersion = 13.0;
+					};
+				};
+			};
+			buildConfigurationList = 18C07F91276227030001CC9F /* Build configuration list for PBXProject "SwingTweak" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18C07F8D276227030001CC9F;
+			productRefGroup = 18C07F97276227030001CC9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18C07F95276227030001CC9F /* SwingTweak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18C07F94276227030001CC9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C07FCB276235A10001CC9F /* Roboto-Bold.ttf in Resources */,
+				18C07FC9276235A10001CC9F /* LICENSE.txt in Resources */,
+				186338D6276375AF005160E6 /* HomeStoryboard.storyboard in Resources */,
+				18C07FC6276235A10001CC9F /* Roboto-BoldItalic.ttf in Resources */,
+				18C07FC3276235A10001CC9F /* Roboto-Regular.ttf in Resources */,
+				18EC9950276B226F007F36B9 /* ProGolfSB.storyboard in Resources */,
+				18C07FC7276235A10001CC9F /* Roboto-LightItalic.ttf in Resources */,
+				18C07FC1276235A10001CC9F /* Roboto-Medium.ttf in Resources */,
+				18C07FA9276227050001CC9F /* LaunchScreen.storyboard in Resources */,
+				186338E4276770AD005160E6 /* DraftSwingTVCell.xib in Resources */,
+				18EC994D276B165E007F36B9 /* SwingListProTVCell.xib in Resources */,
+				18C07FCA276235A10001CC9F /* Roboto-BlackItalic.ttf in Resources */,
+				18C07FCC276235A10001CC9F /* Roboto-Thin.ttf in Resources */,
+				18C07FC2276235A10001CC9F /* Roboto-Light.ttf in Resources */,
+				18C07FC5276235A10001CC9F /* Roboto-ThinItalic.ttf in Resources */,
+				18C07FCD276235A10001CC9F /* Roboto-Black.ttf in Resources */,
+				18C07FC4276235A10001CC9F /* Roboto-MediumItalic.ttf in Resources */,
+				18C07FA6276227050001CC9F /* Assets.xcassets in Resources */,
+				18AA251A276F7FA20065B9DF /* SwingTweakVideo.MP4 in Resources */,
+				18EC9960276B65BB007F36B9 /* TweaksTVCell.xib in Resources */,
+				18EC9955276B2FB8007F36B9 /* PopUpSB.storyboard in Resources */,
+				18C07FC8276235A10001CC9F /* Roboto-Italic.ttf in Resources */,
+				18C07FA1276227030001CC9F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8B4F57DD9EAD37701CE06008 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwingTweak/Pods-SwingTweak-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SwingTweak/Pods-SwingTweak-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SwingTweak/Pods-SwingTweak-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAE8AC6434FF3220543BD889 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SwingTweak-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18C07F92276227030001CC9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18EC9958276B2FFE007F36B9 /* ClaimSwingVC.swift in Sources */,
+				186338E3276770AD005160E6 /* DraftSwingTVCell.swift in Sources */,
+				186338D4276369FF005160E6 /* PasswordResetSuccessVC.swift in Sources */,
+				18EC994C276B165E007F36B9 /* SwingListProTVCell.swift in Sources */,
+				18C07FD3276240D30001CC9F /* CustomView.swift in Sources */,
+				186338CA27632CDF005160E6 /* SignupVC.swift in Sources */,
+				185418592768D9130083FF12 /* FaceOnTypeVC.swift in Sources */,
+				18AA2517276E700C0065B9DF /* VideoEditorVC.swift in Sources */,
+				188036E8276A342300B5AA5E /* FloatRatingView.swift in Sources */,
+				186338F12767DB6A005160E6 /* DTLTVCell.swift in Sources */,
+				1854185C2769CABC0083FF12 /* ActiveSwingDetilVC.swift in Sources */,
+				18AA2514276CC7420065B9DF /* EditProfileVC.swift in Sources */,
+				18EC995F276B65BB007F36B9 /* TweaksTVCell.swift in Sources */,
+				186338CC276339FA005160E6 /* Constant.swift in Sources */,
+				18EC9963276B829F007F36B9 /* ViewTweakVC.swift in Sources */,
+				186338D127636122005160E6 /* ForgotPassVC.swift in Sources */,
+				186338CE27633A62005160E6 /* UtilityClass.swift in Sources */,
+				186338D927637AC3005160E6 /* TabBarHomeVC.swift in Sources */,
+				18C07FD5276242B60001CC9F /* LoginVC.swift in Sources */,
+				18EC995B276B478A007F36B9 /* CreatTweakVC.swift in Sources */,
+				18EC9953276B2765007F36B9 /* SwingDetailProVC.swift in Sources */,
+				18C07F9A276227030001CC9F /* AppDelegate.swift in Sources */,
+				186338DC276729BA005160E6 /* MyProfileVC.swift in Sources */,
+				186338DF276767D4005160E6 /* CreatSwingVC.swift in Sources */,
+				18C07F9C276227030001CC9F /* SceneDelegate.swift in Sources */,
+				186338EF2767DB46005160E6 /* FaceOnTVCell.swift in Sources */,
+				185418552768B30B0083FF12 /* Utils.swift in Sources */,
+				18EC9966276B86A7007F36B9 /* FeedBackPopVC.swift in Sources */,
+				18AA251C2771B4170065B9DF /* CustomExtensions.swift in Sources */,
+				186338F727688107005160E6 /* TweaksVC.swift in Sources */,
+				18C07FA4276227030001CC9F /* SwingTweak.xcdatamodeld in Sources */,
+				186338E72767728E005160E6 /* DraftSwingVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18C07F9F276227030001CC9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C07FA0276227030001CC9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18C07FA7276227050001CC9F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18C07FA8276227050001CC9F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18C07FAB276227050001CC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18C07FAC276227050001CC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18C07FAE276227050001CC9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47A1F96D6EEC6ADB2C0B3FE6 /* Pods-SwingTweak.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV7BJK3HYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwingTweak/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Video Recording";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio Recording in Video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library Use for Video Save";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kynetic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18C07FAF276227050001CC9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF2FE90FE0D5843FAD1BE16F /* Pods-SwingTweak.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NV7BJK3HYU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwingTweak/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Video Recording";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio Recording in Video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Photo Library Use for Video Save";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kynetic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18C07F91276227030001CC9F /* Build configuration list for PBXProject "SwingTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C07FAB276227050001CC9F /* Debug */,
+				18C07FAC276227050001CC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18C07FAD276227050001CC9F /* Build configuration list for PBXNativeTarget "SwingTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18C07FAE276227050001CC9F /* Debug */,
+				18C07FAF276227050001CC9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		18C07FA2276227030001CC9F /* SwingTweak.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				18C07FA3276227030001CC9F /* SwingTweak.xcdatamodel */,
+			);
+			currentVersion = 18C07FA3276227030001CC9F /* SwingTweak.xcdatamodel */;
+			path = SwingTweak.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 18C07F8E276227030001CC9F /* Project object */;
+}

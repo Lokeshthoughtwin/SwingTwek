@@ -1,0 +1,6 @@
+framework module Pods_SwingTweak {
+  umbrella header "Pods-SwingTweak-umbrella.h"
+
+  export *
+  module * { export * }
+}
